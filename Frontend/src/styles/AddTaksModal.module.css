@@ -1,0 +1,410 @@
+.AddTaskModalContainer{
+    background-color: white;
+    height: 64vh;
+    width: 38vw;
+    margin-top: 17.5vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.AddTaskTitlestar{
+    display: flex;
+    font-size: 13.5px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.AddTaskTitle{
+    margin-bottom: 0px;
+}
+.redstar{
+    color: red;
+    margin-bottom: 0px;
+}
+.AddTaskTitleInput{
+    text-indent: 15px;
+    width: 32vw;
+    height: 5vh;
+    border: 1px solid #E2E2E2;
+    border-radius: 5px;
+}
+.tasktitlediv{
+    margin-left: 2.7vw;
+    margin-top: 1.5vh;
+}
+.taskprioritydiv{
+    display: flex;
+    margin-left: 2.7vw;
+    align-items: center;
+}
+.AddTaskPriority{
+    font-size: 13.5px;
+    font-weight: 500;
+}
+.AddTaskSelectPriority{
+    display: flex;
+    align-items: center;
+}
+.redstarPriority{
+    color: red;
+}
+.checklistitemsmaindiv{
+    height: 35.5vh;
+}
+.AddTaskAssigntoDiv{
+    display: flex;
+    margin-left: 2.7vw;
+    align-items: center;
+}
+.assigntoinput{
+    text-indent: 15px;
+    width: 27.2vw;
+    height: 5vh;
+    border: 1px solid #E2E2E2;
+    border-radius: 5px;
+    margin-left: 1vw;
+}
+.assigntoinput:focus{
+    outline: none;
+}
+.assigntotext{
+    font-size: 13.5px;
+    font-weight: 500;
+}
+.taskchecklistdiv{
+    display: flex;
+    margin-left: 2.7vw;
+    font-size: 13.5px;
+    font-weight: 500;
+}
+.taskbuttonsdiv{
+    display: flex;
+    margin-top: 2vh;
+    align-items: center;
+}
+.checklistitemsdiv{
+    margin-left: 2.7vw;
+    width: 35.3vw;
+    max-height: 18vh;
+    overflow-y: auto;
+}
+.checklistitemsdiv::-webkit-scrollbar{
+    height: 8px;
+    width: 9px;
+}
+.checklistitemsdiv::-webkit-scrollbar-track{
+    background-color: white;
+    border-radius: 2px;
+}
+.checklistitemsdiv::-webkit-scrollbar-thumb{
+    background-color: #9CB7C5;
+    border-radius: 5px;
+}
+.AddTaskPriorityHigh{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    align-items: center;
+    border: 1px solid #E2E2E2;
+    border-radius: 10px;
+    height: 2vw;
+    width: 7.4vw;
+    font-size: 11.5px;
+    color: #767575;
+    margin-left: 0.5vw;
+}
+.AddTaskPriorityModerate{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    align-items: center;
+    border: 1px solid #E2E2E2;
+    border-radius: 10px;
+    height: 2vw;
+    width: 9.8vw;
+    font-size: 11.5px;
+    color: #767575;
+    margin-left: 0.5vw;
+}
+.AddTaskPriorityLow{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    align-items: center;
+    border: 1px solid #E2E2E2;
+    border-radius: 10px;
+    height: 2vw;
+    width: 7.3vw;
+    font-size: 11.5px;
+    color: #767575;
+    margin-left: 0.5vw;
+}
+.AddTaskPriorityHighSelect{
+    display: flex;
+    flex-direction: row;
+    background-color: #EEECEC;
+    align-items: center;
+    border: 1px solid #E2E2E2;
+    border-radius: 10px;
+    height: 2vw;
+    width: 7.4vw;
+    font-size: 11.5px;
+    color: #767575;
+    margin-left: 0.5vw;
+}
+.AddTaskPriorityModerateSelect{
+    display: flex;
+    flex-direction: row;
+    background-color: #EEECEC;
+    align-items: center;
+    border: 1px solid #E2E2E2;
+    border-radius: 10px;
+    height: 2vw;
+    width: 9.8vw;
+    font-size: 11.5px;
+    color: #767575;
+    margin-left: 0.5vw;
+}
+.AddTaskPriorityLowSelect{
+    display: flex;
+    flex-direction: row;
+    background-color: #EEECEC;
+    align-items: center;
+    border: 1px solid #E2E2E2;
+    border-radius: 10px;
+    height: 2vw;
+    width: 7.3vw;
+    font-size: 11.5px;
+    color: #767575;
+    margin-left: 0.5vw;
+}
+.AddTaskPriorityHighdot{
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    background-color: #FF2473;
+}
+.AddTaskPriorityModeratedot{
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    background-color: #18B0FF;
+}
+.AddTaskPriorityLowdot{
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    background-color: #63C05B;
+}
+.AddTaskDueDateButton{
+    background-color: white;
+    border: 1px solid #E2E2E2;
+    border-radius: 10px;
+    width: 9vw;
+    height: 4.5vh;
+    color: #474646;
+    font-weight: 500;
+    margin-left: 2.7vw;
+    text-align: center;
+}
+.AddTaskDueDateButton:focus{
+    outline: none;
+}
+.AddTaskCancelButton{
+    background-color: white;
+    border: 1px solid #CF3636;
+    border-radius: 10px;
+    width: 8vw;
+    height: 4.5vh;
+    color: #CF3636;
+    font-weight: 600;
+    margin-left: 6.7vw;
+}
+.AddTaskSaveButton{
+    background-color: #17A2B8;
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    width: 8vw;
+    height: 4.5vh;
+    font-weight: 600;
+    margin-left: 1vw;
+}
+.checklistdiv{
+    display: flex;
+    align-items: center;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    border-radius: 10px;
+    border: 1px solid #E2E2E2;
+    margin-bottom: 2vh;
+    width: 31.3vw;
+}
+.Addnewchecklist{
+    display: flex;
+    align-items: center;
+    font-size: 13.5px;
+    color: #767575;
+    margin-left: 3vw;
+}
+.addsign{
+    margin-top: 2px;
+    font-size: 18px;
+}
+.addnewtext{
+    margin-top: 0px;
+}
+.checkboxContainer{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.checkboxchecklist{
+    width: 14px;
+    height: 14px;
+    display: none;
+}
+.customCheckbox{
+    width: 14px;
+    height: 14px;
+    border: 1px solid #E2E2E2;
+    background-color: transparent;
+    display: inline-block;
+    position: relative;
+    border-radius: 4px;
+}
+.customCheckbox .checkmark{
+    position: absolute;
+    left: 5px;
+    top: 1px;
+    width: 2px;
+    height: 9px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+.checkboxchecklist:checked+.customCheckbox{
+    background-color: #17A2B8;
+}
+.inputchecklist{
+    border: none;
+    margin-left: 1vw;
+    width: 29vw;
+    height: 22px;
+}
+.inputchecklist:focus{
+    outline: none;
+}
+.TitleError{
+    color: red;
+    margin-top: 0px;
+    font-size: 10px;
+    margin-bottom: 0px;
+    margin-left: 2.7vw;
+}
+.priorityError{
+    color: red;
+    margin-top: 0px;
+    font-size: 10px;
+    margin-bottom: 0px;
+    margin-left: 2.7vw;
+}
+.checkliststitleerrorError{
+    color: red;
+    margin-top: -19px;
+    font-size: 10px;
+    margin-bottom: 3px;
+    margin-left: 3vw;
+}
+.checklistsError{
+    color: red;
+    margin-top: -10px;
+    font-size: 10px;
+    margin-bottom: 0px;
+    margin-left: 3vw;
+}
+.customDropdown{
+    position: relative;
+    cursor: pointer;
+    margin-left: 1vw;
+}
+.selectedOption{
+    text-indent: 15px;
+    width: 27.5vw;
+    height: 5vh;
+    border: 1px solid #E2E2E2;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    color: #9B959F;
+    font-size: 14px;
+}
+.selectedOptiondark{
+    text-indent: 15px;
+    width: 27.5vw;
+    height: 5vh;
+    border: 1px solid #E2E2E2;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 14px;
+}
+.dropdownOptions{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    background-color: white;
+    z-index: 1000;
+    max-height: 30vh;
+    overflow-y: auto;
+}
+.dropdownOptions::-webkit-scrollbar{
+    height: 8px;
+    width: 9px;
+}
+.dropdownOptions::-webkit-scrollbar-track{
+    background-color: white;
+    border-radius: 2px;
+}
+.dropdownOptions::-webkit-scrollbar-thumb{
+    background-color: #9CB7C5;
+    border-radius: 5px;
+}
+.dropdownOption{
+    align-items: center;
+    padding: 8px;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.dropdownOption:hover{
+    background-color: #f0f0f0;
+}
+.circleIcon{
+    width: 2vw;
+    height: 4vh;
+    background-color: #FFEBEB;
+    border-radius: 50%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.emailText{
+    margin-left: 0.4vw;
+}
+.assignButton{
+    padding: 4px 24px;
+    background-color: white;
+    color: #767575;
+    border: 1px solid #E2E2E2;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    display: flex;
+}

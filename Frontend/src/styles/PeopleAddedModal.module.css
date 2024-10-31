@@ -1,0 +1,27 @@
+.PeopleAddedModalContainer{
+    background-color: white;
+    height: 28vh;
+    width: 34vw;
+    margin-top: 33vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.PeopleAddedtxt{
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 8vh;
+    display: flex;
+    justify-content: center;
+}
+.PeopleAddedcancelbutton{
+    background-color: #17A2B8;
+    color: white;
+    border: 1px solid #17A2B8;
+    border-radius: 10px;
+    width: 14.5vw;
+    height: 4.5vh;
+    margin-top: 2vh;
+    font-weight: 600;
+    margin-left: 10vw;
+}

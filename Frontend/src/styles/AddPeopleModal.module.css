@@ -1,0 +1,143 @@
+.AddPeopleModalContainer{
+    background-color: white;
+    height: 28vh;
+    width: 34vw;
+    margin-top: 33vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.AddPeopletxt{
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 4vh;
+    margin-left: 3vw;
+}
+.AddPeoplebutton{
+    background-color: #17A2B8;
+    color: white;
+    border: 1px solid #17A2B8;
+    border-radius: 10px;
+    width: 14.5vw;
+    height: 4.5vh;
+    margin-top: 2vh;
+    font-weight: 600;
+    margin-left: 1vw;
+}
+.AddPeoplecancelbutton{
+    background-color: white;
+    border: 1px solid #CF3636;
+    border-radius: 10px;
+    width: 14.5vw;
+    height: 4.5vh;
+    margin-top: 1.5vh;
+    color: #CF3636;
+    font-weight: 600;
+}
+.AddPeopleinput{
+    width: 29.5vw;
+    margin-left: 2vw;
+    height: 5vh;
+    border-radius: 7px;
+    border: 1px solid #767575;
+    text-indent: 12px;
+}
+.AddGroupButtonDiv{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 2vh;
+    margin-left: 4vh;
+}
+.dropdownOptionsboard{
+    border: 1px solid #ddd;
+    background-color: white;
+    z-index: 1001;
+    max-height: 30vh;
+    overflow-y: auto;
+    width: 29.9vw;
+    position: absolute;
+}
+.dropdownOptionsboard::-webkit-scrollbar{
+    height: 8px;
+    width: 9px;
+}
+.dropdownOptionsboard::-webkit-scrollbar-track{
+    background-color: white;
+    border-radius: 2px;
+}
+.dropdownOptionsboard::-webkit-scrollbar-thumb{
+    background-color: #9CB7C5;
+    border-radius: 5px;
+}
+.dropdownOptionboard{
+    align-items: center;
+    padding: 8px;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.dropdownOptionboard:hover{
+    background-color: #f0f0f0;
+}
+.circleIconboard{
+    width: 2vw;
+    height: 4vh;
+    background-color: #FFEBEB;
+    border-radius: 50%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.emailTextboard{
+    margin-left: 0.4vw;
+}
+.assignButtonboard{
+    padding: 4px 24px;
+    background-color: white;
+    color: #767575;
+    border: 1px solid #E2E2E2;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    display: flex;
+}
+.selectedOptionboard{
+    position: relative;
+    text-indent: 15px;
+    width: 29.9vw;
+    height: 5vh;
+    border: 1px solid #767575;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    color: #9B959F;
+    font-size: 14px;
+    cursor: pointer;
+}
+.selectedOptiondarkboard{
+    position: relative;
+    text-indent: 15px;
+    width: 29.9vw;
+    height: 5vh;
+    border: 1px solid #767575;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 14px;
+    cursor: pointer;
+}
+.addtoboarddiv{
+    margin-left: 2vw;
+    margin-top: 1.5vh;
+    margin-right: 3vw;
+}
+.addtoboardemailError{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    color: red;
+    font-size: 12px;
+    margin-left: 2vw;
+}

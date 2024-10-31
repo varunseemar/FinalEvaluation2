@@ -1,0 +1,123 @@
+.Registermain{
+    display: flex;
+}
+.Registerleft{
+    width: 60vw;
+    height: 100vh;
+    background-color: #17A2B8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Registerright{
+    width: 40vw;
+    height: 100vh;
+}
+.backimg{
+    position: fixed;
+    z-index: 2;
+    width: 15vw;
+    margin-top: 25vh;
+    height: 30vh;
+}
+.frontimg{
+    position: relative;
+    z-index: 3;
+    width: 13vw;
+    margin-top: 31vh;
+    margin-left: 1vw;
+}
+.uppertxt{
+    font-family: sans-serif;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+.lowertxt{
+    font-family: sans-serif;
+    color: white;
+}
+.Regsiterform{
+    display: flex;
+    flex-direction: column;
+}
+.Registertxt{
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-top: 16vh;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10vh;
+}
+.Regsiterforminput{
+    width: 23vw;
+    height: 5vh;
+    border-radius: 7px;
+    border: 1px solid #D0D0D0;
+    text-indent: 2.6vw;
+    position: fixed;
+    z-index: 2;
+}
+.Registerright{
+    display: flex;
+    flex-direction: column;
+}
+.RegisterUserImage{
+    position: relative;
+    z-index: 3;
+    margin-left: -20.5vw;
+    height: 3.5vh;
+}
+.RegisterEmailImage{
+    position: relative;
+    z-index: 3;
+    margin-left: -20.5vw;
+    height: 3.5vh;
+}
+.RegisterPassImage{
+    position: relative;
+    z-index: 3;
+    height: 3.5vh;
+    margin-left: -0.3vw;
+}
+.RegisterPassShowImage{
+    position: relative;
+    z-index: 3;
+    height: 3.5vh;
+}
+.Registerbutton{
+    width: 23vw;
+    height: 5.5vh;
+    border-radius: 40px;
+    border: 1px solid #D0D0D0;
+    margin-left: 8.5vw;
+    background-color: #17A2B8;
+    color: white;
+    margin-top: 2.5vh;
+}
+.haveaccounttxt{
+    color: #828282;
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5vh;
+}
+.RegisterLogin{
+    width: 23vw;
+    height: 5.5vh;
+    border-radius: 40px;
+    border: 1px solid #17A2B8;
+    margin-left: 8.5vw;
+    background-color: white;
+    color: #17A2B8;
+}
+.spaninput{
+    display: flex;
+    margin-bottom: 4vh;
+    align-items: center;
+    justify-content: space-around;
+}
+.Error{
+    color: red;
+    margin-left: 8.4vw;
+    margin-top: -20px;
+}

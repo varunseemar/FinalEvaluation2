@@ -1,0 +1,159 @@
+.main{
+    display: flex;
+}
+.LogoutModal{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.6);
+    justify-content: center;
+    display: flex;
+}
+.DeleteModal{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.6);
+    justify-content: center;
+    display: flex;
+}
+.AddPeopleModal{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.6);
+    justify-content: center;
+    display: flex;
+}
+.PeopleAddedModal{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.6);
+    justify-content: center;
+    display: flex;
+}
+.AddTaskModal{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.6);
+    justify-content: center;
+    display: flex;
+}
+.leftLayout{
+    height: 100vh;
+    width: 15vw;
+    border-right: 1px solid #EDF5FE;
+}
+.promanage span{
+    display: flex;
+    align-items: center;
+    margin-top: 2.5vh;
+}
+.promanage span img{
+    margin-left: 3vw;
+    margin-right: 1vw;
+}
+.promanage span p{
+    font-weight: 800;
+}
+.board{
+    background-color: white;
+}
+.boardSelected{
+    background-color: #4391ED1A;
+}
+.board span{
+    display: flex;
+    align-items: center;
+    margin-top: 4vh;
+    height: 5vh;
+}
+.board span img{
+    margin-left: 3vw;
+    margin-right: 1vw;
+}
+.boardSelected span{
+    display: flex;
+    align-items: center;
+    margin-top: 4vh;
+    height: 5vh;
+    font-weight: 500;
+}
+.boardSelected span img{
+    margin-left: 3vw;
+    margin-right: 1vw;
+}
+.analytics{
+    background-color: white;
+}
+.analyticsSelected{
+    background-color: #4391ED1A;
+}
+.analytics span{
+    display: flex;
+    align-items: center;
+    margin-top: 3vh;
+    height: 5vh;
+}
+.analytics span img{
+    margin-left: 3vw;
+    margin-right: 1vw;
+}
+.analyticsSelected span{
+    display: flex;
+    align-items: center;
+    margin-top: 3vh;
+    height: 5vh;
+    font-weight: 500;
+}
+.analyticsSelected span img{
+    margin-left: 3vw;
+    margin-right: 1vw;
+}
+.settings{
+    background-color: white;
+}
+.settingsSelected{
+    background-color: #4391ED1A;
+}
+.settings span{
+    display: flex;
+    align-items: center;
+    margin-top: 3vh;
+    height: 5vh;
+}
+.settings span img{
+    margin-left: 3vw;
+    margin-right: 1vw;
+}
+.settingsSelected span{
+    display: flex;
+    align-items: center;
+    margin-top: 3vh;
+    height: 5vh;
+    font-weight: 500;
+}
+.settingsSelected span img{
+    margin-left: 3vw;
+    margin-right: 1vw;
+}
+.logout span{
+    display: flex;
+    align-items: center;
+    margin-top: 50vh;
+}
+.logout span img{
+    margin-left: 3vw;
+    margin-right: 1vw;
+}
+.logout span p{
+    color: #CF3636;
+    font-weight: 500;
+}

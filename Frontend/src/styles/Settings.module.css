@@ -1,0 +1,65 @@
+.upperSettings{
+    font-size: 21px;
+    font-weight: 500;
+    margin-left: 2vw;
+    margin-top: 4vh;
+}
+.Settingsform{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8vh;
+    margin-left: 2vw;
+}
+.Settingsforminput{
+    width: 23vw;
+    height: 5vh;
+    border-radius: 7px;
+    border: 1px solid #D0D0D0;
+    text-indent: 2.6vw;
+    position: fixed;
+    z-index: 2;
+}
+.SettingsUserImage{
+    position: relative;
+    z-index: 3;
+    margin-left: -20.5vw;
+    height: 3.5vh;
+}
+.SettingsEmailImage{
+    position: relative;
+    z-index: 3;
+    margin-left: -20.5vw;
+    height: 3.5vh;
+}
+.SettingsPassImage{
+    position: relative;
+    z-index: 3;
+    height: 3.5vh;
+    margin-left: -8.9vw;
+}
+.SettingsPassShowImage{
+    position: relative;
+    z-index: 3;
+    height: 3.5vh;
+    margin-right: -8.5vw;
+}
+.Settingsbutton{
+    width: 23vw;
+    height: 5.5vh;
+    border-radius: 40px;
+    border: 1px solid #D0D0D0;
+    background-color: #17A2B8;
+    color: white;
+    margin-top: 2.5vh;
+}
+.settingsspaninput{
+    display: flex;
+    margin-bottom: 4vh;
+    align-items: center;
+    justify-content: space-around;
+}
+.UpdateError{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: red;
+}

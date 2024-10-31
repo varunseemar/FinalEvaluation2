@@ -1,0 +1,155 @@
+.promanageshare span{
+    display: flex;
+    align-items: center;
+    margin-top: 2.5vh;
+}
+.promanageshare span img{
+    margin-left: 3vw;
+    margin-right: 1vw;
+}
+.promanageshare span p{
+    font-weight: 800;
+}
+.taskdivshare{
+    max-height: 70vh;   
+    width: 34vw;
+    margin-left: 33vw;
+    margin-top: 4vh;
+    background-color: white;
+    border: 2px solid #EDF5FE;
+    border-radius: 10px;
+    padding: 4vh 2vw 3vh 2vw;
+}
+.TaskPriorityLowdotshare{
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    background-color: #63C05B;
+}
+.TaskPriorityHighdotshare{
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    background-color: #FF2473;
+}
+.TaskPriorityModeratedotshare{
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    background-color: #18B0FF;
+}
+.taskprioritymenushare{
+    display: flex;
+    align-items: center;
+}
+.TaskPriorityshare{
+    font-size: 8px;
+    color: #707070;
+    margin-right: 11.5vw;
+}
+.Tasktitletextshare{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.tasktitleshare{
+    margin-bottom: 4vh;
+}
+.checklistaccordiontextshare{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.taskchecklistitemshare{
+    margin-top: 2vh;
+    max-height: 41vh;
+    overflow-y: auto;
+}
+.checklistItemshare{
+    display: flex;
+    align-items: center;
+    height: 5vh;
+    margin-right: 0.4vw;
+    margin-bottom: 1.5vh;
+    border: 1px solid #E2E2E2;
+    border-radius: 12px;
+    padding-left: 1.5vw;
+}
+.checklisttitleshare{
+    margin-left: 1vw;
+}
+.taskchecklistitemshare::-webkit-scrollbar{
+    height: 8px;
+    width: 7px;
+}
+.taskchecklistitemshare::-webkit-scrollbar-track{
+    background-color: #D6EAF4;
+    border-radius: 2px;
+}
+.taskchecklistitemshare::-webkit-scrollbar-thumb{
+    background-color: #8DAAB9CC;
+    border-radius: 5px;
+}
+.taskduedatetextshare{
+    font-size: 14px;
+    font-weight: 500;
+}
+.taskduedatecolordivshare{
+    background-color: #CF3636;
+    padding: 0.5vh 0.8vw 0.5vh 0.8vw;
+    border-radius: 8px;
+}
+.taskduedatedivshare{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+.taskduedatecolortextshare{
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+
+@media (max-width: 768px){
+.taskdivshare{
+    width: 80vw;
+    margin-left: 5vw;
+    padding: 2vh 4vw;
+}
+.promanageshare span{
+    margin-left: 5vw;
+}
+.promanageshare span img{
+    margin-left: 2vw;
+    margin-right: 1vw;
+}
+.TaskPriorityshare{
+    font-size: 10px;
+    margin-right: 2vw;
+}
+.Tasktitletextshare{
+    font-size: 18px;
+}
+.checklistaccordiontextshare,
+.taskduedatetextshare{
+    font-size: 12px;
+}
+.taskchecklistitemshare{
+    max-height: 30vh;
+}
+.checklistItemshare{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.taskduedatecolordivshare{
+    padding: 0.3vh 1vw;
+}
+.taskduedatecolortextshare{
+    font-size: 12px;
+}
+}

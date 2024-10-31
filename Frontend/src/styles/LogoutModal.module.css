@@ -1,0 +1,35 @@
+.LogoutModalContainer{
+    background-color: white;
+    height: 25vh;
+    width: 23vw;
+    margin-top: 36vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logouttxt{
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 3vh;
+}
+.logoutbutton{
+    background-color: #17A2B8;
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    width: 20vw;
+    height: 5.5vh;
+    margin-top: 2vh;
+    font-weight: 600;
+}
+.cancelbutton{
+    background-color: white;
+    border: 1px solid #CF3636;
+    border-radius: 10px;
+    width: 20vw;
+    height: 5.5vh;
+    margin-top: 1.5vh;
+    color: #CF3636;
+    font-weight: 600;
+}
